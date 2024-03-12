@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Welcome", "Welcome\Welcome.csproj", "{0FD8C990-C076-4194-901E-3F956B7C03C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Welcome", "Welcome\Welcome.csproj", "{0FD8C990-C076-4194-901E-3F956B7C03C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WelcomeExtender", "WelcomeExtender\WelcomeExtender.csproj", "{34E804A5-0F6F-4558-A349-DEA91E266708}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0FD8C990-C076-4194-901E-3F956B7C03C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FD8C990-C076-4194-901E-3F956B7C03C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FD8C990-C076-4194-901E-3F956B7C03C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34E804A5-0F6F-4558-A349-DEA91E266708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34E804A5-0F6F-4558-A349-DEA91E266708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34E804A5-0F6F-4558-A349-DEA91E266708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34E804A5-0F6F-4558-A349-DEA91E266708}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

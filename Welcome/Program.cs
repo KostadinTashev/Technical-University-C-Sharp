@@ -12,7 +12,7 @@ namespace Welcome
             User user = new User();
             user.Names = "Kostadin Tashev";
             user.Password = "123654789";
-            user.Role = UserRolesEnum.PROFESSOR;
+            user.Role = UserRolesEnum.ADMIN;
             user.FacultyNumber = "121221132";
             user.Email = "kotashev@tu-sofia.bg";
 

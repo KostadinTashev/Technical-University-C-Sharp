@@ -8,7 +8,7 @@ using Welcome.ViewModel;
 using Welcome.Others;
 namespace Welcome.View
 {
-    internal class UserView
+    public class UserView
     {
         private UserViewModel _viewModel;
         public UserView(UserViewModel viewModel)
@@ -34,6 +34,10 @@ namespace Welcome.View
                 Console.WriteLine("Role:" + _viewModel.Role);
             }
             
+        }
+        public void DisplayError()
+        {
+            throw new Exception("Error!");
         }
     }
     
